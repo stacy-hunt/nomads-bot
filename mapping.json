@@ -1,0 +1,42 @@
+{
+    "Name": {
+      "source": "Name",
+      "target": "Name",
+      "type": "title"
+    },
+    "Priority": {
+      "source": "Priority",
+      "target": "Priority",
+      "type": "select"
+    },
+    "Tags": {
+      "source": "Tags",
+      "target": "Tags",
+      "type": "multi_select"
+    },
+    "Due Date": {
+      "source": "Due Date",
+      "target": "Due",
+      "type": "date"
+    },
+    "Status": {
+      "source": "State",
+      "target": "Status",
+      "type": "status"
+    },
+    "Type": {
+      "source": "Type",
+      "target": "Type",
+      "type": "select",
+      "options": {
+        "Development": "Front End Development",
+        "Project Management": "QA",
+        "Marketing": "Communication",
+        "Biz Dev": "Requirements",
+        "Admin": "Backend Development",
+        "R&D": "QA",
+        "Design": "Design"
+      }
+    }
+  }
+  
